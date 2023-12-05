@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/+9SfXd2P/VVwxJUK4tc/6xYh4mYh2SsZfhCgBmxd7/FvgSqzw/FXZgtDGzbUoEw2lq8Ty7749kuYOk13NZ+Ww==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\swath\\Documents\\WebConnectivity\\Section2_20\\Section2_20\\Section2_20.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\swath\\.nuget\\packages\\jquery\\1.8.0\\jquery.1.8.0.nupkg.sha512",
+    "C:\\Users\\swath\\.nuget\\packages\\microsoft.jquery.unobtrusive.ajax\\3.2.6\\microsoft.jquery.unobtrusive.ajax.3.2.6.nupkg.sha512"
+  ],
+  "logs": []
+}
