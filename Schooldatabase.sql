@@ -1,0 +1,23 @@
+CREATE DATABASE schooldatabase;
+use schooldatabase;
+
+
+
+CREATE TABLE Student (
+    ID INT PRIMARY KEY,
+    Name VARCHAR(100) NOT NULL,
+    Address VARCHAR(100) NOT NULL,
+    Email VARCHAR(75) NOT NULL,
+    Class VARCHAR(5) NOT NULL
+);
+
+
+CREATE TABLE Class (
+    ID INT PRIMARY KEY,
+    Name VARCHAR(5) NOT NULL
+);
+
+CREATE TABLE Subject (
+    ID INT PRIMARY KEY,
+    Name VARCHAR(50) NOT NULL
+);
