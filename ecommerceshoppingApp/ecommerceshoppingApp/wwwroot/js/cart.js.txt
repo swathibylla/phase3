@@ -1,0 +1,27 @@
+document.querySelectorAll('.add-to-cart').forEach(button =>{
+button.addEventListener('click',async(event) =>{
+const productId = event.target.dataset.productId;
+const quantityInput = document.getElementById('quantity-${productId}');
+const quantity = quantityInput.value;
+
+const response = await fetch('/Cart/AddToCart',{
+method:'POST',
+headers: {
+'Content-Type':'application/json'
+},
+body:Json.stringify({productId,quantity})
+});
+
+if(response.ok){
+const cart = await response.json();
+if(cart.updated){
+alert('Product quantity updated in cart');
+}else{
+alert('Product added to cart');
+}
+
+}else{
+alert('failed to add product to cart');
+}
+});
+});

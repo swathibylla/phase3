@@ -1,0 +1,61 @@
+﻿@model ecommerceshoppingA.Models.Cart
+
+@{
+    ViewData["Title"] = "Cart";
+}
+<h3>Cart</h3>
+@if(Model.Items.Count > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+
+                <th>Price</th>
+
+                <th>Cost</th>
+
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var item in Model.Items)
+            {
+                <tr>
+                    <td>@item.Product.Name</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.Prouct.Price</td>
+                    <td>@(Math.Round(item.Cost,2))</td><!-- Display the Cost-->
+                    <td>
+                        <form action="/Cart/Remove" method="post">
+                            <input type ="hidden" name="productId" value="=@item.Product.Id"/>
+                            <button type ="submit">Remove</button>
+                        </form>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+        <tr>
+            <td colspan="3">Total Cost:</td>
+            <td>@(Math.Round(Model.TotalCost,2))</td><!--Display the total Cost-->
+        </tr>
+        </tfoot>
+    </table>
+    <form asp-asp-controller="Products" asp-action="get">
+        <button type ="submit" class="btn btn-primary">
+            Edit Products(Start Again)
+        </button>
+    </form>
+}
+else
+{
+    <p>Cart is empty.</p>
+
+}
+@section Scripts{
+    <script src ="/js/cart.js"></script>
+}
+
