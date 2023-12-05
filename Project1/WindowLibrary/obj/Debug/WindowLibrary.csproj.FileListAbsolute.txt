@@ -1,0 +1,6 @@
+C:\Users\swath\Documents\WebConnectivity\Project1\WindowLibrary\obj\Debug\WindowLibrary.csproj.AssemblyReference.cache
+C:\Users\swath\Documents\WebConnectivity\Project1\WindowLibrary\obj\Debug\WindowLibrary.csproj.CoreCompileInputs.cache
+C:\Users\swath\Documents\WebConnectivity\Project1\WindowLibrary\bin\Debug\WindowLibrary.dll
+C:\Users\swath\Documents\WebConnectivity\Project1\WindowLibrary\bin\Debug\WindowLibrary.pdb
+C:\Users\swath\Documents\WebConnectivity\Project1\WindowLibrary\obj\Debug\WindowLibrary.dll
+C:\Users\swath\Documents\WebConnectivity\Project1\WindowLibrary\obj\Debug\WindowLibrary.pdb
