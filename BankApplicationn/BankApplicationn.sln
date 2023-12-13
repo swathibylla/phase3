@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankApplicationn", "BankApplicationn\BankApplicationn.csproj", "{BFC26C37-ADBC-4A52-81DC-13E8DE23DCAD}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{DCEA35FE-1A7B-4352-B850-047F1FDB3573}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFC26C37-ADBC-4A52-81DC-13E8DE23DCAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC26C37-ADBC-4A52-81DC-13E8DE23DCAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC26C37-ADBC-4A52-81DC-13E8DE23DCAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC26C37-ADBC-4A52-81DC-13E8DE23DCAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCEA35FE-1A7B-4352-B850-047F1FDB3573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCEA35FE-1A7B-4352-B850-047F1FDB3573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCEA35FE-1A7B-4352-B850-047F1FDB3573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCEA35FE-1A7B-4352-B850-047F1FDB3573}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17773DBE-6E3C-43C9-93B9-0EB88290FEAE}
+	EndGlobalSection
+EndGlobal
