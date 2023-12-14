@@ -1,0 +1,114 @@
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\csc.exe
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\System.Collections.Immutable.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\System.Reflection.Metadata.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\Online Pizza.dll.config
+D:\asp.net\Online Pizza\Online Pizza\bin\Online Pizza.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\Online Pizza.pdb
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\csc.exe.config
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\csc.rsp
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\csi.exe
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\csi.exe.config
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\csi.rsp
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\Microsoft.Managed.Core.targets
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\System.AppContext.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\System.Console.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\System.IO.Compression.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\System.IO.FileSystem.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\System.IO.Pipes.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\System.Security.AccessControl.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\System.Security.Claims.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\System.Security.Principal.Windows.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\System.ValueTuple.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\System.Xml.XmlDocument.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\System.Xml.XPath.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\vbc.exe
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\vbc.exe.config
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\vbc.rsp
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\VBCSCompiler.exe
+D:\asp.net\Online Pizza\Online Pizza\bin\roslyn\VBCSCompiler.exe.config
+D:\asp.net\Online Pizza\Online Pizza\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\asp.net\Online Pizza\Online Pizza\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\asp.net\Online Pizza\Online Pizza\obj\Debug\Online Pizza.csprojAssemblyReference.cache
+D:\asp.net\Online Pizza\Online Pizza\obj\Debug\Online Pizza.csproj.CoreCompileInputs.cache
+D:\asp.net\Online Pizza\Online Pizza\obj\Debug\Online Pizza.csproj.CopyComplete
+D:\asp.net\Online Pizza\Online Pizza\obj\Debug\Online Pizza.dll
+D:\asp.net\Online Pizza\Online Pizza\obj\Debug\Online Pizza.pdb
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\Online Pizza.dll.config
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\Online Pizza.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\Online Pizza.pdb
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\csc.exe
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\csc.exe.config
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\csc.rsp
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\csi.exe
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\csi.exe.config
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\csi.rsp
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\Microsoft.Managed.Core.targets
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\System.AppContext.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\System.Collections.Immutable.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\System.Console.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\System.IO.Compression.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\System.IO.FileSystem.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\System.IO.Pipes.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\System.Reflection.Metadata.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\System.Security.AccessControl.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\System.Security.Claims.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\System.Security.Principal.Windows.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\System.ValueTuple.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\System.Xml.XmlDocument.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\System.Xml.XPath.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\vbc.exe
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\vbc.exe.config
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\vbc.rsp
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\VBCSCompiler.exe
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\roslyn\VBCSCompiler.exe.config
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\obj\Debug\Online Pizza.csprojAssemblyReference.cache
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\obj\Debug\Online Pizza.csproj.CoreCompileInputs.cache
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\obj\Debug\Online Pizza.csproj.CopyComplete
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\obj\Debug\Online Pizza.dll
+D:\asp.net\Online Pizza Project\Online Pizza\Online Pizza\obj\Debug\Online Pizza.pdb
+C:\Users\swath\Documents\phase3\Pizza\Online Pizza\obj\Debug\Online Pizza.csproj.AssemblyReference.cache
+C:\Users\swath\Documents\phase3\Pizza\Online Pizza\obj\Debug\Online Pizza.csproj.CoreCompileInputs.cache
