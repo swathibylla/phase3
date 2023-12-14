@@ -1,0 +1,79 @@
+﻿@model OnlineEDUschoolManaementSystemMVC.Models.Student
+
+@{
+    ViewBag.Title = "Registration";
+    Layout = "~/Views/Shareds/_LayoutPanel.cshtml";
+}
+
+<<center style="background-color:antiquewhite">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+
+    @using (Html.BeginForm("Registration", "Home", FormMethod.Post))
+    {
+        <table style="width: 448px; height: 440px; background-color: #4cff00; font-size: large; font-weight: bold;">
+            <th colspan="2" align="center"><h1>Register Now</h1></th>
+
+
+  
+
+
+            <tr>
+                <td align="center">Username</td>
+                <td align="center">
+                    <a>@Html.TextBoxFor(m => m.Name)</a>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td align="center">Phone</td>
+                <td align="center">
+                    @Html.TextBoxFor(m => m.Mobile)
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center">Password</td>
+                <td align="center">
+                    @Html.TextBoxFor(m => m.RollNo)
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center">Confirm Password</td>
+                <td align="center">
+                    @Html.TextBoxFor(m => m.studentId)
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center">Postal Code</td>
+                <td align="center">
+                    @Html.TextBoxFor(m => m.Address)
+                </td>
+            </tr>
+
+
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit" name="submit" class="btn btnOrder" />
+                </td>
+            </tr>
+        </table>
+    }
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+</center>
+

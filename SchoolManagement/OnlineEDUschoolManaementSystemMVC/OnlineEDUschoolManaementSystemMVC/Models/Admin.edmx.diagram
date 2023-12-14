@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4c34ef6663874401a5719a99067e87ac" Name="Diagram1">
+        <EntityTypeShape EntityType="SchoolsystemModel.Class" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolsystemModel.Exam" Width="1.5" PointX="5.25" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolsystemModel.Fee" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolsystemModel.Student" Width="1.5" PointX="3" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolsystemModel.StudentAttendance" Width="1.5" PointX="8.25" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolsystemModel.Subject" Width="1.5" PointX="3" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolsystemModel.Teacher" Width="1.5" PointX="3" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolsystemModel.TeacherAttendance" Width="1.5" PointX="5.25" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolsystemModel.TeacherSubject" Width="1.5" PointX="5.25" PointY="16.625" IsExpanded="true" />
+        <AssociationConnector Association="SchoolsystemModel.FK__Exam__classId__619B8048" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolsystemModel.FK__Fees__classId__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolsystemModel.FK__Student__classId__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolsystemModel.FK__StudentAt__class__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolsystemModel.FK__Subject__classId__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolsystemModel.FK__TeacherSu__class__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolsystemModel.FK__Exam__subjectId__628FA481" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolsystemModel.FK__StudentAt__subje__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolsystemModel.FK__TeacherSu__subje__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolsystemModel.FK__TeacherAt__Teach__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolsystemModel.FK__TeacherSu__Teach__5535A963" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
