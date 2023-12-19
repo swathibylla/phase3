@@ -1,0 +1,67 @@
+﻿@model IEnumerable<AppUiLayer.Models.Bloginfo>
+
+
+@{
+    ViewBag.Title = "Blogs";
+    Layout = "~/Views/Shared/_BlogsLayout.cshtml";
+}
+
+<h2>Blogs</h2>
+
+<p>
+    @Html.ActionLink("Add New", "AddBlogInfo")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.BlogId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Subject)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateOfCreation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BlogUrl)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmpemailId)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.BlogId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Subject)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateOfCreation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BlogUrl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmpemailId)
+            </td>
+            <td>
+
+
+                @Html.ActionLink("Delete", "Delete", new { id = item.BlogId })
+                @Html.ActionLink("Edit", "Edit", new { id = item.BlogId })
+            </td>
+        </tr>
+    }
+
+</table>

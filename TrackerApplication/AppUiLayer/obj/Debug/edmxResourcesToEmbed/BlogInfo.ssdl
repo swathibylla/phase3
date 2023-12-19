@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BlogTrackerModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AdminInfoes">
+    <Key>
+      <PropertyRef Name="EmailId" />
+    </Key>
+    <Property Name="EmailId" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="BlogInfoes">
+    <Key>
+      <PropertyRef Name="BlogId" />
+    </Key>
+    <Property Name="BlogId" Type="int" Nullable="false" />
+    <Property Name="Title" Type="varchar" MaxLength="70" />
+    <Property Name="Subject" Type="varchar" MaxLength="50" />
+    <Property Name="DateOfCreation" Type="datetime" />
+    <Property Name="BlogUrl" Type="varchar" MaxLength="400" />
+    <Property Name="EmpEmailId" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="EmpInfoes">
+    <Key>
+      <PropertyRef Name="EmailId" />
+    </Key>
+    <Property Name="EmailId" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="30" />
+    <Property Name="DateOfJoining" Type="datetime" />
+    <Property Name="PassCode" Type="int" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK__BlogInfoe__EmpEm__5165187F">
+    <End Role="EmpInfoes" Type="Self.EmpInfoes" Multiplicity="0..1" />
+    <End Role="BlogInfoes" Type="Self.BlogInfoes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EmpInfoes">
+        <PropertyRef Name="EmailId" />
+      </Principal>
+      <Dependent Role="BlogInfoes">
+        <PropertyRef Name="EmpEmailId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BlogTrackerModelStoreContainer">
+    <EntitySet Name="AdminInfoes" EntityType="Self.AdminInfoes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BlogInfoes" EntityType="Self.BlogInfoes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EmpInfoes" EntityType="Self.EmpInfoes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__BlogInfoe__EmpEm__5165187F" Association="Self.FK__BlogInfoe__EmpEm__5165187F">
+      <End Role="EmpInfoes" EntitySet="EmpInfoes" />
+      <End Role="BlogInfoes" EntitySet="BlogInfoes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

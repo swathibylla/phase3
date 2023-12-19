@@ -1,0 +1,43 @@
+﻿@model IEnumerable<AppUiLayer.Models.Bloginfo>
+
+
+@{
+    ViewBag.Title = "BlogInfo";
+}
+
+<h2 style="text-align:center">List Of Blogs</h2>
+<br />
+<br />
+
+
+@foreach (var item in Model)
+{
+
+    <div class="container  col-md-6">
+        <div class="alert alert-info" role="alert" style="color:black">
+            <h5>
+                @Html.DisplayFor(modelItem => item.Title)-By<h5>
+                    @Html.DisplayFor(modelItem => item.EmpemailId)
+                </h5>
+            </h5>
+
+
+            <h5>
+                Date:@Html.DisplayFor(modelItem => item.DateOfCreation)
+            </h5>
+            <h5>
+                Subject:@Html.DisplayFor(modelItem => item.Subject)
+
+            </h5>
+            <div style="background-color:blue;color:white" role="alert">
+                <h5>
+                    @Html.DisplayFor(modelItem => item.BlogUrl)
+                </h5>
+            </div>
+
+        </div>
+    </div>
+
+}
+
+

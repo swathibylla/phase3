@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "EmpLogin";
+}
+
+<h5>@ViewBag.msg</h5>
+
+<div class="center-block">
+    <h1>EmployeeLoginPage</h1>
+
+    <form method="post">
+        <div>
+            <label>Email:</label>
+            <br />
+            <input type="text" name="EmailId" required />
+            <span></span>
+
+
+        </div>
+        <div>
+            <label>Passcode:</label>
+            <br />
+            <input type="password" required name="Passcode" />
+            <span></span>
+
+        </div>
+        <br />
+
+        <input class="btn btn-danger" type="submit" value="Login" />
+
+    </form>
+
+</div>
